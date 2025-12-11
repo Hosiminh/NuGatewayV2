@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nu Gateway - Ayarlar</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            min-height: 100vh; display: flex;
+        }
+        .sidebar {
+            width: 250px; background: #003366; color: white;
+            display: flex; flex-direction: column; position: fixed;
+            height: 100vh; left: 0; top: 0;
+        }
+        .logo { padding: 20px; background: #002244; display: flex; align-items: center; gap: 10px; }
+        .logo-icon { width: 30px; height: 30px; background: #4A90E2; border-radius: 5px; }
+        .logo-text { font-size: 18px; font-weight: bold; }
+        .nav-menu { flex: 1; padding: 20px 0; }
+        .nav-item {
+            padding: 15px 25px; color: #ccc; text-decoration: none;
+            display: block; transition: all 0.3s; cursor: pointer;
+        }
+        .nav-item:hover { background: #004477; color: white; }
+        .nav-item.active { background: #0066cc; color: white; border-left: 4px solid #4A90E2; }
+        .main-content { margin-left: 250px; flex: 1; display: flex; flex-direction: column; min-height: 100vh; }
+        .header {
+            background: white; padding: 20px 30px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            display: flex; justify-content: space-between; align-items: center;
+        }
+        .header h1 { color: #003366; font-size: 24px; }
+        .user-info { display: flex; align-items: center; gap: 15px; }
+        .user-avatar {
+            width: 40px; height: 40px; border-radius: 50%; background: #4A90E2;
+            display: flex; align-items: center; justify-content: center; color: white;
+        }
+        .content-area { flex: 1; padding: 30px; }
+        .settings-section {
+            background: white; border-radius: 8px; padding: 25px;
+            margin-bottom: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .settings-section h3 {
+            color: #003366; margin-bottom: 20px;
+            padding-bottom: 10px; border-bottom: 2px solid #4A90E2;
+        }
+        .form-group { margin-bottom: 20px; }
+        .form-group label {
+            display: block; margin-bottom: 8px;
+            color: #333; font-weight: 500;
+        }
+        .form-group input, .form-group select {
+            width: 100%; max-width: 400px; padding: 10px;
+            border: 1px solid #ddd; border-radius: 4px; font-size: 14px;
+        }
+        .form-group small {
+            display: block; margin-top: 5px;
+            color: #666; font-size: 13px;
+        }
+        .btn {
+            padding: 10px 20px; border: none; border-radius: 4px;
+            font-size: 14px; font-weight: 500; cursor: pointer; transition: all 0.3s;
+        }
+        .btn-primary { background: #4A90E2; color: white; }
+        .btn-primary:hover { background: #357ABD; }
+        .btn-danger { background: #dc3545; color: white; }
+        .btn-danger:hover { background: #c82333; }
+        .system-info {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px; margin-top: 15px;
+        }
+        .info-item {
+            padding: 15px; background: #f9f9f9;
+            border-radius: 4px; border-left: 3px solid #4A90E2;
+        }
+        .info-label { font-size: 12px; color: #666; margin-bottom: 5px; }
+        .info-value { font-size: 16px; font-weight: 600; color: #333; }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <div class="logo-icon"></div>
+            <div class="logo-text">Nu Gateway</div>
+        </div>
+        <nav class="nav-menu">
+            <a href="/dashboard" class="nav-item">Dashboard</a>
+            <a href="/devices" class="nav-item">Cihazlar</a>
+            <a href="/mppt_control" class="nav-item">MPPT Kontrol</a>
+            <a href="/relay_control" class="nav-item">Röle Kontrol</a>
+            <a href="/automation" class="nav-item">Alarm & Otomasyon</a>
+            <a href="/settings" class="nav-item active">Ayarlar</a>
+        </nav>
+    </div>
+
+    <div class="main-content">
+        <div class="header">
+            <h1>Ayarlar</h1>
+            <div class="user-info">
+                <span>Cafer DOĞANAY</span>
+                <div class="user-avatar">CD</div>
+            </div>
+        </div>
+
+        <div class="content-area">
+            <div class="settings-section">
+                <h3>Sistem Bilgileri</h3>
+                <div class="system-info">
+                    <div class="info-item">
+                        <div class="info-label">Versiyon</div>
+                        <div class="info-value">v1.0</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-label">Cihaz Adı</div>
+                        <div class="info-value">NuGateway</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-label">IP Adresi</div>
+                        <div class="info-value">192.168.1.100</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-label">Çalışma Süresi</div>
+                        <div class="info-value">2 saat 15 dk</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="settings-section">
+                <h3>Seri Port Ayarları</h3>
+                <div class="form-group">
+                    <label>Port</label>
+                    <select>
+                        <option>/dev/ttyAMA0</option>
+                        <option>/dev/ttyUSB0</option>
+                        <option>/dev/ttyS0</option>
+                    </select>
+                    <small>RS485 haberleşme portu</small>
+                </div>
+                <div class="form-group">
+                    <label>Baud Rate</label>
+                    <select>
+                        <option>4800</option>
+                        <option selected>9600</option>
+                        <option>19200</option>
+                        <option>38400</option>
+                        <option>115200</option>
+                    </select>
+                    <small>Modbus haberleşme hızı</small>
+                </div>
+                <button class="btn btn-primary" onclick="alert('Seri port ayarları kaydedildi')">Kaydet</button>
+            </div>
+
+            <div class="settings-section">
+                <h3>Ağ Ayarları</h3>
+                <div class="form-group">
+                    <label>MQTT Broker</label>
+                    <input type="text" value="mqtt.nuteknoloji.com">
+                </div>
+                <div class="form-group">
+                    <label>MQTT Port</label>
+                    <input type="number" value="1883">
+                </div>
+                <button class="btn btn-primary" onclick="alert('Ağ ayarları kaydedildi')">Kaydet</button>
+            </div>
+
+            <div class="settings-section">
+                <h3>Sistem İşlemleri</h3>
+                <div class="form-group">
+                    <button class="btn btn-primary" onclick="if(confirm('Sistemi yeniden başlatmak istediğinizden emin misiniz?')) alert('Sistem yeniden başlatılıyor...')">Sistemi Yeniden Başlat</button>
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-danger" onclick="if(confirm('⚠️ TÜM AYARLAR SİLİNECEK! Devam etmek istediğinizden emin misiniz?')) alert('Fabrika ayarlarına dönülüyor...')">Fabrika Ayarlarına Dön</button>
+                    <small>⚠️ Bu işlem tüm ayarları siler</small>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer-container"></div>
+    </div>
+
+    <script src="/statics/footer-loader.js"></script>
+</body>
+</html>1~<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nu Gateway - Ayarlar</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            min-height: 100vh; display: flex;
+        }
+        .sidebar {
+            width: 250px; background: #003366; color: white;
+            display: flex; flex-direction: column; position: fixed;
+            height: 100vh; left: 0; top: 0;
+        }
+        .logo { padding: 20px; background: #002244; display: flex; align-items: center; gap: 10px; }
+        .logo-icon { width: 30px; height: 30px; background: #4A90E2; border-radius: 5px; }
+        .logo-text { font-size: 18px; font-weight: bold; }
+        .nav-menu { flex: 1; padding: 20px 0; }
+        .nav-item {
+            padding: 15px 25px; color: #ccc; text-decoration: none;
+            display: block; transition: all 0.3s; cursor: pointer;
+        }
+        .nav-item:hover { background: #004477; color: white; }
+        .nav-item.active { background: #0066cc; color: white; border-left: 4px solid #4A90E2; }
+        .main-content { margin-left: 250px; flex: 1; display: flex; flex-direction: column; min-height: 100vh; }
+        .header {
+            background: white; padding: 20px 30px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            display: flex; justify-content: space-between; align-items: center;
+        }
+        .header h1 { color: #003366; font-size: 24px; }
+        .user-info { display: flex; align-items: center; gap: 15px; }
+        .user-avatar {
+            width: 40px; height: 40px; border-radius: 50%; background: #4A90E2;
+            display: flex; align-items: center; justify-content: center; color: white;
+        }
+        .content-area { flex: 1; padding: 30px; }
+        .settings-section {
+            background: white; border-radius: 8px; padding: 25px;
+            margin-bottom: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .settings-section h3 {
+            color: #003366; margin-bottom: 20px;
+            padding-bottom: 10px; border-bottom: 2px solid #4A90E2;
+        }
+        .form-group { margin-bottom: 20px; }
+        .form-group label {
+            display: block; margin-bottom: 8px;
+            color: #333; font-weight: 500;
+        }
+        .form-group input, .form-group select {
+            width: 100%; max-width: 400px; padding: 10px;
+            border: 1px solid #ddd; border-radius: 4px; font-size: 14px;
+        }
+        .form-group small {
+            display: block; margin-top: 5px;
+            color: #666; font-size: 13px;
+        }
+        .btn {
+            padding: 10px 20px; border: none; border-radius: 4px;
+            font-size: 14px; font-weight: 500; cursor: pointer; transition: all 0.3s;
+        }
+        .btn-primary { background: #4A90E2; color: white; }
+        .btn-primary:hover { background: #357ABD; }
+        .btn-danger { background: #dc3545; color: white; }
+        .btn-danger:hover { background: #c82333; }
+        .system-info {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px; margin-top: 15px;
+        }
+        .info-item {
+            padding: 15px; background: #f9f9f9;
+            border-radius: 4px; border-left: 3px solid #4A90E2;
+        }
+        .info-label { font-size: 12px; color: #666; margin-bottom: 5px; }
+        .info-value { font-size: 16px; font-weight: 600; color: #333; }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <div class="logo-icon"></div>
+            <div class="logo-text">Nu Gateway</div>
+        </div>
+        <nav class="nav-menu">
+            <a href="/dashboard" class="nav-item">Dashboard</a>
+            <a href="/devices" class="nav-item">Cihazlar</a>
+            <a href="/mppt_control" class="nav-item">MPPT Kontrol</a>
+            <a href="/relay_control" class="nav-item">Röle Kontrol</a>
+            <a href="/automation" class="nav-item">Alarm & Otomasyon</a>
+            <a href="/settings" class="nav-item active">Ayarlar</a>
+        </nav>
+    </div>
+
+    <div class="main-content">
+        <div class="header">
+            <h1>Ayarlar</h1>
+            <div class="user-info">
+                <span>Cafer DOĞANAY</span>
+                <div class="user-avatar">CD</div>
+            </div>
+        </div>
+
+        <div class="content-area">
+            <div class="settings-section">
+                <h3>Sistem Bilgileri</h3>
+                <div class="system-info">
+                    <div class="info-item">
+                        <div class="info-label">Versiyon</div>
+                        <div class="info-value">v1.0</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-label">Cihaz Adı</div>
+                        <div class="info-value">NuGateway</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-label">IP Adresi</div>
+                        <div class="info-value">192.168.1.100</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-label">Çalışma Süresi</div>
+                        <div class="info-value">2 saat 15 dk</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="settings-section">
+                <h3>Seri Port Ayarları</h3>
+                <div class="form-group">
+                    <label>Port</label>
+                    <select>
+                        <option>/dev/ttyAMA0</option>
+                        <option>/dev/ttyUSB0</option>
+                        <option>/dev/ttyS0</option>
+                    </select>
+                    <small>RS485 haberleşme portu</small>
+                </div>
+                <div class="form-group">
+                    <label>Baud Rate</label>
+                    <select>
+                        <option>4800</option>
+                        <option selected>9600</option>
+                        <option>19200</option>
+                        <option>38400</option>
+                        <option>115200</option>
+                    </select>
+                    <small>Modbus haberleşme hızı</small>
+                </div>
+                <button class="btn btn-primary" onclick="alert('Seri port ayarları kaydedildi')">Kaydet</button>
+            </div>
+
+            <div class="settings-section">
+                <h3>Ağ Ayarları</h3>
+                <div class="form-group">
+                    <label>MQTT Broker</label>
+                    <input type="text" value="mqtt.nuteknoloji.com">
+                </div>
+                <div class="form-group">
+                    <label>MQTT Port</label>
+                    <input type="number" value="1883">
+                </div>
+                <button class="btn btn-primary" onclick="alert('Ağ ayarları kaydedildi')">Kaydet</button>
+            </div>
+
+            <div class="settings-section">
+                <h3>Sistem İşlemleri</h3>
+                <div class="form-group">
+                    <button class="btn btn-primary" onclick="if(confirm('Sistemi yeniden başlatmak istediğinizden emin misiniz?')) alert('Sistem yeniden başlatılıyor...')">Sistemi Yeniden Başlat</button>
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-danger" onclick="if(confirm('⚠️ TÜM AYARLAR SİLİNECEK! Devam etmek istediğinizden emin misiniz?')) alert('Fabrika ayarlarına dönülüyor...')">Fabrika Ayarlarına Dön</button>
+                    <small>⚠️ Bu işlem tüm ayarları siler</small>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer-container"></div>
+    </div>
+
+    <script src="/statics/footer-loader.js"></script>
+</body>
+</html>

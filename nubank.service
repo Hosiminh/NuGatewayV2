@@ -1,0 +1,20 @@
+[Unit]
+Description=NuBank Complete Service (Video + Modbus + MQTT)
+After=graphical.target network.target
+
+[Service]
+Type=simple
+User=cafer
+Group=cafer
+Environment=DISPLAY=:0
+Environment=WAYLAND_DISPLAY=wayland-1
+Environment=XDG_RUNTIME_DIR=/run/user/1000
+WorkingDirectory=/home/cafer/Desktop/NuGateway
+ExecStart=/usr/bin/python3 /home/cafer/Desktop/NuGateway/nubank_complete.py
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=graphical.target

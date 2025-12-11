@@ -1,0 +1,918 @@
+2025-11-25 13:15:14,562 - INFO - ======================================================================
+2025-11-25 13:15:14,563 - INFO - 🚀 NuBank Complete Service
+2025-11-25 13:15:14,563 - INFO - ======================================================================
+2025-11-25 13:15:14,563 - INFO - ⏰ Başlangıç: 13:15:14
+2025-11-25 13:15:14,564 - INFO - ⏰ Kapanma: 15:15:14
+2025-11-25 13:15:14,564 - INFO - 📡 MQTT: broker.nuteknoloji.com → KARADAG-BANK-01/telemetry
+2025-11-25 13:15:14,564 - INFO - ======================================================================
+2025-11-25 13:15:14,571 - INFO - ✅ Modbus connected: /dev/ttyUSB0
+2025-11-25 13:15:14,899 - INFO - ✅ MQTT connected: broker.nuteknoloji.com
+2025-11-25 13:15:16,814 - INFO - 🔌 Röleler açılıyor (CH1, CH2, CH3)...
+2025-11-25 13:15:16,815 - INFO -    ✅ CH1 (GPIO 26): AÇIK
+2025-11-25 13:15:16,815 - INFO -    ✅ CH2 (GPIO 20): AÇIK
+2025-11-25 13:15:16,815 - INFO -    ✅ CH3 (GPIO 21): AÇIK
+2025-11-25 13:15:19,815 - INFO - 🖥️  Ekran dikey yapılıyor (270°)...
+2025-11-25 13:15:19,820 - INFO -    ✅ Ekran döndürüldü
+2025-11-25 13:15:21,820 - INFO - 🎬 Video başlatılıyor...
+2025-11-25 13:15:21,824 - INFO -    ✅ Video loop (PID: 12484)
+2025-11-25 13:15:21,825 - INFO - 📊 Modbus okuma başlıyor...
+2025-11-25 13:15:21,827 - INFO - 💚 Sistem aktif - Video + Telemetry çalışıyor...
+2025-11-25 13:15:22,403 - INFO -    ✓ MPPT: 18.8V
+2025-11-25 13:15:23,114 - INFO -    ✓ ENV: 16.9°C
+2025-11-25 13:15:23,415 - INFO - ✅ MQTT published: 11 parameters
+2025-11-25 13:20:23,432 - INFO - 📊 Modbus okuma başlıyor...
+2025-11-25 13:20:23,979 - INFO -    ✓ MPPT: 19.2V
+2025-11-25 13:20:24,687 - INFO -    ✓ ENV: 17.0°C
+2025-11-25 13:20:24,988 - INFO - ✅ MQTT published: 11 parameters
+2025-11-25 13:25:21,893 - INFO - 💚 Aktif | Kalan: 109 dakika
+2025-11-25 13:25:24,999 - INFO - 📊 Modbus okuma başlıyor...
+2025-11-25 13:25:25,579 - INFO -    ✓ MPPT: 19.2V
+2025-11-25 13:25:26,282 - INFO -    ✓ ENV: 17.2°C
+2025-11-25 13:25:26,585 - INFO - ✅ MQTT published: 11 parameters
+2025-11-25 13:26:52,501 - INFO - ⚠️  Kapatma sinyali alındı...
+2025-11-25 13:26:56,903 - INFO - ======================================================================
+2025-11-25 13:26:56,903 - INFO - 🔄 Kapatılıyor...
+2025-11-25 13:26:56,903 - INFO - ======================================================================
+2025-11-25 13:26:57,904 - INFO - 🔌 Röleler kapatılıyor...
+2025-11-25 13:26:57,904 - INFO -    ⭕ CH1 (GPIO 26): KAPALI
+2025-11-25 13:26:57,905 - INFO -    ⭕ CH2 (GPIO 20): KAPALI
+2025-11-25 13:26:57,905 - INFO -    ⭕ CH3 (GPIO 21): KAPALI
+2025-11-25 13:26:58,894 - WARNING - ⚠️  MQTT disconnected
+2025-11-25 13:26:58,895 - INFO - ✅ Temizlendi
+2025-11-25 13:26:58,895 - INFO - 👋 NuBank Service kapatıldı
+2025-11-25 13:54:40,642 - INFO - ======================================================================
+2025-11-25 13:54:40,642 - INFO - 🚀 NuBank Complete Service - FULL BMS
+2025-11-25 13:54:40,642 - INFO - ======================================================================
+2025-11-25 13:54:40,642 - INFO - 📍 Location: Podgorica-Karadag
+2025-11-25 13:54:40,643 - INFO - 🆔 Device ID: KARADAG-BANK-01
+2025-11-25 13:54:40,643 - INFO - 🔧 Device Type: 0xC1
+2025-11-25 13:54:40,643 - INFO - ⏰ Başlangıç: 13:54:40
+2025-11-25 13:54:40,643 - INFO - ⏰ Kapanma: 15:54:40
+2025-11-25 13:54:40,643 - INFO - 📡 MQTT: broker.nuteknoloji.com → KARADAG-BANK-01/telemetry
+2025-11-25 13:54:40,643 - INFO - ======================================================================
+2025-11-25 13:54:40,651 - INFO - ✅ Modbus connected: /dev/ttyUSB0
+2025-11-25 13:54:40,946 - INFO - ✅ MQTT connected: broker.nuteknoloji.com
+2025-11-25 13:54:42,866 - INFO - 🔌 Röleler açılıyor (CH1, CH2, CH3)...
+2025-11-25 13:54:42,867 - INFO -    ✅ CH1 (GPIO 26): AÇIK
+2025-11-25 13:54:42,867 - INFO -    ✅ CH2 (GPIO 20): AÇIK
+2025-11-25 13:54:42,867 - INFO -    ✅ CH3 (GPIO 21): AÇIK
+2025-11-25 13:54:45,868 - INFO - 🖥️  Ekran dikey yapılıyor (270°)...
+2025-11-25 13:54:45,873 - INFO -    ✅ Ekran döndürüldü
+2025-11-25 13:54:47,874 - INFO - 🎬 Video başlatılıyor...
+2025-11-25 13:54:47,883 - INFO -    ✅ Video loop (PID: 12941)
+2025-11-25 13:54:47,887 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-11-25 13:54:47,893 - INFO - 💚 Sistem aktif - Video + Telemetry (Full BMS) çalışıyor...
+2025-11-25 13:54:48,875 - INFO -    ✓ MPPT PV: 20.2V, 4.83A
+2025-11-25 13:54:49,582 - INFO -    ✓ ENV: 18.3°C, 68.7%, CO2: 439.0ppm
+2025-11-25 13:54:49,986 - INFO -    ✓ LDR: 42196 lux
+2025-11-25 13:55:00,298 - INFO -    ✓ BMS: 13.11V, 0%
+2025-11-25 13:55:00,299 - INFO -    ✓ Cells: 3.285V, 3.279V, 3.278V, 3.273V
+2025-11-25 13:55:01,702 - INFO - ✅ MQTT published: 26 parameters
+2025-11-25 14:00:01,718 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-11-25 14:00:02,650 - INFO -    ✓ MPPT PV: 18.6V, 1.67A
+2025-11-25 14:00:03,353 - INFO -    ✓ ENV: 18.3°C, 69.3%, CO2: 444.0ppm
+2025-11-25 14:00:03,754 - INFO -    ✓ LDR: 14750 lux
+2025-11-25 14:00:14,064 - INFO -    ✓ BMS: 12.98V, 0%
+2025-11-25 14:00:14,065 - INFO -    ✓ Cells: 3.238V, 3.25V, 3.249V, 3.243V
+2025-11-25 14:00:15,469 - INFO - ✅ MQTT published: 26 parameters
+2025-11-25 14:03:27,627 - INFO - ⚠️  Kapatma sinyali alındı...
+2025-11-25 14:03:27,941 - INFO - ======================================================================
+2025-11-25 14:03:27,941 - INFO - 🔄 Kapatılıyor...
+2025-11-25 14:03:27,942 - INFO - ======================================================================
+2025-11-25 14:03:28,942 - INFO - 🔌 Röleler kapatılıyor...
+2025-11-25 14:03:28,943 - INFO -    ⭕ CH1 (GPIO 26): KAPALI
+2025-11-25 14:03:28,943 - INFO -    ⭕ CH2 (GPIO 20): KAPALI
+2025-11-25 14:03:28,943 - INFO -    ⭕ CH3 (GPIO 21): KAPALI
+2025-11-25 14:03:29,164 - WARNING - ⚠️  MQTT disconnected
+2025-11-25 14:03:29,165 - INFO - ✅ Temizlendi
+2025-11-25 14:03:29,165 - INFO - 👋 NuBank Service kapatıldı
+2025-11-25 14:03:29,623 - INFO - ======================================================================
+2025-11-25 14:03:29,623 - INFO - 🚀 NuBank Complete Service - FULL BMS
+2025-11-25 14:03:29,624 - INFO - ======================================================================
+2025-11-25 14:03:29,624 - INFO - 📍 Location: Podgorica-Karadag
+2025-11-25 14:03:29,624 - INFO - 🆔 Device ID: KARADAG-BANK-01
+2025-11-25 14:03:29,624 - INFO - 🔧 Device Type: 0xC1
+2025-11-25 14:03:29,625 - INFO - ⏰ Başlangıç: 14:03:29
+2025-11-25 14:03:29,625 - INFO - ⏰ Kapanma: 16:03:29
+2025-11-25 14:03:29,625 - INFO - 📡 MQTT: broker.nuteknoloji.com → KARADAG-BANK-01/telemetry
+2025-11-25 14:03:29,625 - INFO - ======================================================================
+2025-11-25 14:03:29,634 - INFO - ✅ Modbus connected: /dev/ttyUSB0
+2025-11-25 14:03:29,859 - INFO - ✅ MQTT connected: broker.nuteknoloji.com
+2025-11-25 14:03:31,776 - INFO - 🔌 Röleler açılıyor (CH1, CH2, CH3)...
+2025-11-25 14:03:31,776 - INFO -    ✅ CH1 (GPIO 26): AÇIK
+2025-11-25 14:03:31,776 - INFO -    ✅ CH2 (GPIO 20): AÇIK
+2025-11-25 14:03:31,777 - INFO -    ✅ CH3 (GPIO 21): AÇIK
+2025-11-25 14:03:34,777 - INFO - 🖥️  Ekran dikey yapılıyor (270°)...
+2025-11-25 14:03:34,782 - INFO -    ✅ Ekran döndürüldü
+2025-11-25 14:03:36,783 - INFO - 🎬 Video başlatılıyor...
+2025-11-25 14:03:36,787 - INFO -    ✅ Video loop (PID: 12991)
+2025-11-25 14:03:36,796 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-11-25 14:03:36,796 - INFO - 💚 Sistem aktif - Video + Telemetry (Full BMS) çalışıyor...
+2025-11-25 14:03:37,774 - INFO -    ✓ MPPT PV: 18.8V, 1.32A
+2025-11-25 14:03:38,480 - INFO -    ✓ ENV: 18.2°C, 69.3%, CO2: 442.0ppm
+2025-11-25 14:03:38,882 - INFO -    ✓ LDR: 11842 lux
+2025-11-25 14:03:49,197 - INFO -    ✓ BMS: 12.96V, 0%
+2025-11-25 14:03:49,200 - INFO -    ✓ Cells: 3.235V, 3.244V, 3.243V, 3.241V
+2025-11-25 14:03:50,603 - INFO - ✅ MQTT published: 26 parameters
+2025-11-25 14:08:14,963 - INFO - ⚠️  Kapatma sinyali alındı...
+2025-11-25 14:08:16,848 - INFO - ======================================================================
+2025-11-25 14:08:16,849 - INFO - 🔄 Kapatılıyor...
+2025-11-25 14:08:16,849 - INFO - ======================================================================
+2025-11-25 14:08:17,850 - INFO - 🔌 Röleler kapatılıyor...
+2025-11-25 14:08:17,850 - INFO -    ⭕ CH1 (GPIO 26): KAPALI
+2025-11-25 14:08:17,850 - INFO -    ⭕ CH2 (GPIO 20): KAPALI
+2025-11-25 14:08:17,850 - INFO -    ⭕ CH3 (GPIO 21): KAPALI
+2025-11-25 14:08:18,062 - WARNING - ⚠️  MQTT disconnected
+2025-11-25 14:08:18,062 - INFO - ✅ Temizlendi
+2025-11-25 14:08:18,062 - INFO - 👋 NuBank Service kapatıldı
+2025-11-25 15:34:28,425 - INFO - ======================================================================
+2025-11-25 15:34:28,425 - INFO - 🚀 NuBank Complete Service - FULL BMS
+2025-11-25 15:34:28,425 - INFO - ======================================================================
+2025-11-25 15:34:28,425 - INFO - 📍 Location: Podgorica-Karadag
+2025-11-25 15:34:28,426 - INFO - 🆔 Device ID: KARADAG-BANK-01
+2025-11-25 15:34:28,426 - INFO - 🔧 Device Type: 0xC1
+2025-11-25 15:34:28,426 - INFO - ⏰ Başlangıç: 15:34:28
+2025-11-25 15:34:28,426 - INFO - ⏰ Kapanma: 17:34:28
+2025-11-25 15:34:28,426 - INFO - 📡 MQTT: broker.nuteknoloji.com → KARADAG-BANK-01/telemetry
+2025-11-25 15:34:28,427 - INFO - ======================================================================
+2025-11-25 15:34:28,432 - INFO - ✅ Modbus connected: /dev/ttyUSB0
+2025-11-25 15:34:28,699 - INFO - ✅ MQTT connected: broker.nuteknoloji.com
+2025-11-25 15:34:30,612 - INFO - 🔌 Röleler açılıyor (CH1, CH2, CH3)...
+2025-11-25 15:34:30,612 - INFO -    ✅ CH1 (GPIO 26): AÇIK
+2025-11-25 15:34:30,612 - INFO -    ✅ CH2 (GPIO 20): AÇIK
+2025-11-25 15:34:30,612 - INFO -    ✅ CH3 (GPIO 21): AÇIK
+2025-11-25 15:34:33,613 - INFO - 🖥️  Ekran dikey yapılıyor (270°)...
+2025-11-25 15:34:33,619 - INFO -    ✅ Ekran döndürüldü
+2025-11-25 15:34:35,620 - INFO - 🎬 Video başlatılıyor...
+2025-11-25 15:34:35,622 - INFO -    ✅ Video loop (PID: 13184)
+2025-11-25 15:34:35,622 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-11-25 15:34:35,623 - INFO - 💚 Sistem aktif - Video + Telemetry (Full BMS) çalışıyor...
+2025-11-25 15:34:36,555 - INFO -    ✓ MPPT PV: 16.5V, 0.41A
+2025-11-25 15:34:37,259 - INFO -    ✓ ENV: 16.5°C, 75.5%, CO2: 447.0ppm
+2025-11-25 15:34:37,663 - INFO -    ✓ LDR: 3703 lux
+2025-11-25 15:34:47,974 - INFO -    ✓ BMS: 12.97V, 0%
+2025-11-25 15:34:47,974 - INFO -    ✓ Cells: 3.237V, 3.25V, 3.249V, 3.243V
+2025-11-25 15:34:49,377 - INFO - ✅ MQTT published: 26 parameters
+2025-11-25 15:39:49,384 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-11-25 15:39:50,346 - INFO -    ✓ MPPT PV: 17.0V, 0.3A
+2025-11-25 15:39:51,051 - INFO -    ✓ ENV: 16.6°C, 75.3%, CO2: 441.0ppm
+2025-11-25 15:39:51,452 - INFO -    ✓ LDR: 3038 lux
+2025-11-25 15:40:01,773 - INFO -    ✓ BMS: 12.9V, 0%
+2025-11-25 15:40:01,773 - INFO -    ✓ Cells: 3.213V, 3.232V, 3.231V, 3.227V
+2025-11-25 15:40:03,176 - INFO - ✅ MQTT published: 26 parameters
+2025-11-25 15:44:35,688 - INFO - 💚 Aktif | Kalan: 109 dakika | Full BMS telemetry
+2025-11-25 15:45:03,196 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-11-25 15:45:04,155 - INFO -    ✓ MPPT PV: 16.9V, 0.27A
+2025-11-25 15:45:04,865 - INFO -    ✓ ENV: 16.6°C, 75.2%, CO2: 439.0ppm
+2025-11-25 15:45:05,266 - INFO -    ✓ LDR: 2777 lux
+2025-11-25 15:45:15,583 - INFO -    ✓ BMS: 12.86V, 0%
+2025-11-25 15:45:15,589 - INFO -    ✓ Cells: 3.206V, 3.224V, 3.222V, 3.216V
+2025-11-25 15:45:16,993 - INFO - ✅ MQTT published: 26 parameters
+2025-11-25 15:49:42,804 - INFO - ⚠️  Kapatma sinyali alındı...
+2025-11-25 15:49:45,719 - INFO - ======================================================================
+2025-11-25 15:49:45,719 - INFO - 🔄 Kapatılıyor...
+2025-11-25 15:49:45,720 - INFO - ======================================================================
+2025-11-25 15:49:46,721 - INFO - 🔌 Röleler kapatılıyor...
+2025-11-25 15:49:46,722 - INFO -    ⭕ CH1 (GPIO 26): KAPALI
+2025-11-25 15:49:46,722 - INFO -    ⭕ CH2 (GPIO 20): KAPALI
+2025-11-25 15:49:46,722 - INFO -    ⭕ CH3 (GPIO 21): KAPALI
+2025-11-25 15:49:46,937 - WARNING - ⚠️  MQTT disconnected
+2025-11-25 15:49:46,937 - INFO - ✅ Temizlendi
+2025-11-25 15:49:46,938 - INFO - 👋 NuBank Service kapatıldı
+2025-11-26 15:56:12,169 - INFO - ======================================================================
+2025-11-26 15:56:12,169 - INFO - 🚀 NuBank Complete Service - FULL BMS
+2025-11-26 15:56:12,169 - INFO - ======================================================================
+2025-11-26 15:56:12,170 - INFO - 📍 Location: Podgorica-Karadag
+2025-11-26 15:56:12,170 - INFO - 🆔 Device ID: KARADAG-BANK-01
+2025-11-26 15:56:12,170 - INFO - 🔧 Device Type: 0xC1
+2025-11-26 15:56:12,170 - INFO - ⏰ Başlangıç: 15:56:12
+2025-11-26 15:56:12,170 - INFO - ⏰ Kapanma: 17:56:12
+2025-11-26 15:56:12,171 - INFO - 📡 MQTT: broker.nuteknoloji.com → KARADAG-BANK-01/telemetry
+2025-11-26 15:56:12,171 - INFO - ======================================================================
+2025-11-26 15:56:12,175 - INFO - ✅ Modbus connected: /dev/ttyUSB0
+2025-11-26 15:56:12,481 - INFO - ✅ MQTT connected: broker.nuteknoloji.com
+2025-11-26 15:56:14,396 - INFO - 🔌 Röleler açılıyor (CH1, CH2, CH3)...
+2025-11-26 15:56:14,396 - INFO -    ✅ CH1 (GPIO 26): AÇIK
+2025-11-26 15:56:14,396 - INFO -    ✅ CH2 (GPIO 20): AÇIK
+2025-11-26 15:56:14,396 - INFO -    ✅ CH3 (GPIO 21): AÇIK
+2025-11-26 15:56:17,397 - INFO - 🖥️  Ekran dikey yapılıyor (270°)...
+2025-11-26 15:56:17,403 - INFO -    ✅ Ekran döndürüldü
+2025-11-26 15:56:19,404 - INFO - 🎬 Video başlatılıyor...
+2025-11-26 15:56:19,406 - INFO -    ✅ Video loop (PID: 14752)
+2025-11-26 15:56:19,406 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-11-26 15:56:19,407 - INFO - 💚 Sistem aktif - Video + Telemetry (Full BMS) çalışıyor...
+2025-11-26 15:56:20,394 - INFO -    ✓ MPPT PV: 19.3V, 1.31A
+2025-11-26 15:56:21,098 - INFO -    ✓ ENV: 19.2°C, 68.7%, CO2: 457.0ppm
+2025-11-26 15:56:21,501 - INFO -    ✓ LDR: 11325 lux
+2025-11-26 15:56:32,815 - INFO -    ✓ BMS: 12.98V, 0%
+2025-11-26 15:56:32,816 - INFO -    ✓ Cells: 3.238V, 3.251V, 3.249V, 3.244V
+2025-11-26 15:56:34,219 - INFO - ✅ MQTT published: 26 parameters
+2025-11-26 16:01:34,232 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-11-26 16:01:35,186 - INFO -    ✓ MPPT PV: 18.8V, 1.32A
+2025-11-26 16:01:35,890 - INFO -    ✓ ENV: 19.1°C, 68.6%, CO2: 447.0ppm
+2025-11-26 16:01:36,293 - INFO -    ✓ LDR: 11183 lux
+2025-11-26 16:01:46,613 - INFO -    ✓ BMS: 12.93V, 0%
+2025-11-26 16:01:46,616 - INFO -    ✓ Cells: 3.228V, 3.24V, 3.238V, 3.232V
+2025-11-26 16:01:48,020 - INFO - ✅ MQTT published: 26 parameters
+2025-11-26 16:06:19,494 - INFO - 💚 Aktif | Kalan: 109 dakika | Full BMS telemetry
+2025-11-26 16:06:48,035 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-11-26 16:06:49,015 - INFO -    ✓ MPPT PV: 18.3V, 1.17A
+2025-11-26 16:06:49,723 - INFO -    ✓ ENV: 19.0°C, 68.7%, CO2: 451.0ppm
+2025-11-26 16:06:50,125 - INFO -    ✓ LDR: 9962 lux
+2025-11-26 16:07:00,438 - INFO -    ✓ BMS: 12.9V, 0%
+2025-11-26 16:07:00,439 - INFO -    ✓ Cells: 3.219V, 3.232V, 3.229V, 3.225V
+2025-11-26 16:07:01,841 - INFO - ✅ MQTT published: 26 parameters
+2025-11-26 16:12:01,857 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-11-26 16:12:02,845 - INFO -    ✓ MPPT PV: 18.3V, 0.97A
+2025-11-26 16:12:03,551 - INFO -    ✓ ENV: 19.0°C, 68.3%, CO2: 457.0ppm
+2025-11-26 16:12:03,955 - INFO -    ✓ LDR: 8321 lux
+2025-11-26 16:12:14,269 - INFO -    ✓ BMS: 12.86V, 0%
+2025-11-26 16:12:14,269 - INFO -    ✓ Cells: 3.208V, 3.224V, 3.221V, 3.215V
+2025-11-26 16:12:15,674 - INFO - ✅ MQTT published: 26 parameters
+2025-11-26 16:14:31,751 - INFO - ⚠️  Kapatma sinyali alındı...
+2025-11-26 16:14:34,567 - INFO - ======================================================================
+2025-11-26 16:14:34,568 - INFO - 🔄 Kapatılıyor...
+2025-11-26 16:14:34,568 - INFO - ======================================================================
+2025-11-26 16:14:35,569 - INFO - 🔌 Röleler kapatılıyor...
+2025-11-26 16:14:35,570 - INFO -    ⭕ CH1 (GPIO 26): KAPALI
+2025-11-26 16:14:35,570 - INFO -    ⭕ CH2 (GPIO 20): KAPALI
+2025-11-26 16:14:35,571 - INFO -    ⭕ CH3 (GPIO 21): KAPALI
+2025-11-26 16:14:36,267 - WARNING - ⚠️  MQTT disconnected
+2025-11-26 16:14:36,268 - INFO - ✅ Temizlendi
+2025-11-26 16:14:36,268 - INFO - 👋 NuBank Service kapatıldı
+2025-12-08 14:41:35,655 - INFO - ======================================================================
+2025-12-08 14:41:35,656 - INFO - 🚀 NuBank Complete Service - FULL BMS
+2025-12-08 14:41:35,656 - INFO - ======================================================================
+2025-12-08 14:41:35,657 - INFO - 📍 Location: Podgorica-Karadag
+2025-12-08 14:41:35,657 - INFO - 🆔 Device ID: KARADAG-BANK-01
+2025-12-08 14:41:35,657 - INFO - 🔧 Device Type: 0xC1
+2025-12-08 14:41:35,657 - INFO - ⏰ Başlangıç: 14:41:35
+2025-12-08 14:41:35,658 - INFO - ⏰ Kapanma: 16:41:35
+2025-12-08 14:41:35,658 - INFO - 📡 MQTT: broker.nuteknoloji.com → KARADAG-BANK-01/telemetry
+2025-12-08 14:41:35,658 - INFO - ======================================================================
+2025-12-08 14:41:35,663 - INFO - ✅ Modbus connected: /dev/ttyUSB0
+2025-12-08 14:41:35,674 - ERROR - ❌ MQTT connect error: [Errno -3] Temporary failure in name resolution
+2025-12-08 14:41:35,674 - WARNING - ⚠️  MQTT bağlanamadı, devam ediliyor...
+2025-12-08 14:41:35,674 - INFO - 🔌 Röleler açılıyor (CH1, CH2, CH3)...
+2025-12-08 14:41:35,674 - INFO -    ✅ CH1 (GPIO 26): AÇIK
+2025-12-08 14:41:35,675 - INFO -    ✅ CH2 (GPIO 20): AÇIK
+2025-12-08 14:41:35,675 - INFO -    ✅ CH3 (GPIO 21): AÇIK
+2025-12-08 14:41:38,675 - INFO - 🖥️  Ekran dikey yapılıyor (270°)...
+2025-12-08 14:41:38,678 - INFO -    ✅ Ekran döndürüldü
+2025-12-08 14:41:40,681 - INFO - 🎬 Video başlatılıyor...
+2025-12-08 14:41:40,688 - INFO -    ✅ Video loop (PID: 1290)
+2025-12-08 14:41:40,689 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-08 14:41:40,692 - INFO - 💚 Sistem aktif - Video + Telemetry (Full BMS) çalışıyor...
+2025-12-08 14:41:41,655 - INFO -    ✓ MPPT PV: 23.1V, 0.0A
+2025-12-08 14:41:42,364 - INFO -    ✓ ENV: 33.1°C, 21.7%, CO2: 528.0ppm
+2025-12-08 14:41:42,769 - INFO -    ✓ LDR: 40032 lux
+2025-12-08 14:41:53,090 - INFO -    ✓ BMS: 13.47V, 0%
+2025-12-08 14:41:53,091 - INFO -    ✓ Cells: 3.363V, 3.376V, 3.375V, 3.36V
+2025-12-08 14:41:54,496 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-08 14:47:00,110 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-08 14:47:01,040 - INFO -    ✓ MPPT PV: 18.9V, 5.15A
+2025-12-08 14:47:01,745 - INFO -    ✓ ENV: 32.6°C, 22.0%, CO2: 507.0ppm
+2025-12-08 14:47:02,146 - INFO -    ✓ LDR: 39708 lux
+2025-12-08 14:47:12,457 - INFO -    ✓ BMS: 13.58V, 0%
+2025-12-08 14:47:12,457 - INFO -    ✓ Cells: 3.407V, 3.399V, 3.399V, 3.383V
+2025-12-08 14:47:13,859 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-08 14:51:41,337 - INFO - 💚 Aktif | Kalan: 109 dakika | Full BMS telemetry
+2025-12-08 14:52:13,871 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-08 14:52:14,800 - INFO -    ✓ MPPT PV: 18.9V, 5.0A
+2025-12-08 14:52:15,503 - INFO -    ✓ ENV: 32.0°C, 22.3%, CO2: 511.0ppm
+2025-12-08 14:52:15,905 - INFO -    ✓ LDR: 38800 lux
+2025-12-08 14:52:26,222 - INFO -    ✓ BMS: 13.63V, 0%
+2025-12-08 14:52:26,223 - INFO -    ✓ Cells: 3.418V, 3.413V, 3.413V, 3.392V
+2025-12-08 14:52:27,625 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-08 14:57:27,638 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-08 14:57:28,579 - INFO -    ✓ MPPT PV: 19.0V, 4.7A
+2025-12-08 14:57:29,282 - INFO -    ✓ ENV: 31.4°C, 22.9%, CO2: 509.0ppm
+2025-12-08 14:57:29,683 - INFO -    ✓ LDR: 38033 lux
+2025-12-08 14:57:39,992 - INFO -    ✓ BMS: 13.67V, 0%
+2025-12-08 14:57:39,992 - INFO -    ✓ Cells: 3.43V, 3.423V, 3.424V, 3.401V
+2025-12-08 14:57:41,396 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-08 15:01:41,406 - INFO - 💚 Aktif | Kalan: 99 dakika | Full BMS telemetry
+2025-12-08 15:02:41,416 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-08 15:02:42,367 - INFO -    ✓ MPPT PV: 19.3V, 4.59A
+2025-12-08 15:02:43,074 - INFO -    ✓ ENV: 30.7°C, 23.5%, CO2: 503.0ppm
+2025-12-08 15:02:43,475 - INFO -    ✓ LDR: 37442 lux
+2025-12-08 15:02:53,785 - INFO -    ✓ BMS: 13.7V, 0%
+2025-12-08 15:02:53,786 - INFO -    ✓ Cells: 3.436V, 3.432V, 3.43V, 3.41V
+2025-12-08 15:02:55,190 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-08 15:07:55,206 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-08 15:07:56,170 - INFO -    ✓ MPPT PV: 19.5V, 4.41A
+2025-12-08 15:07:56,874 - INFO -    ✓ ENV: 29.9°C, 24.5%, CO2: 504.0ppm
+2025-12-08 15:07:57,276 - INFO -    ✓ LDR: 36971 lux
+2025-12-08 15:08:07,585 - INFO -    ✓ BMS: 13.73V, 0%
+2025-12-08 15:08:07,585 - INFO -    ✓ Cells: 3.445V, 3.435V, 3.439V, 3.414V
+2025-12-08 15:08:08,987 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-08 15:11:41,480 - INFO - 💚 Aktif | Kalan: 89 dakika | Full BMS telemetry
+2025-12-08 15:13:08,999 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-08 15:13:09,954 - INFO -    ✓ MPPT PV: 19.5V, 4.23A
+2025-12-08 15:13:10,657 - INFO -    ✓ ENV: 28.9°C, 25.6%, CO2: 500.0ppm
+2025-12-08 15:13:11,058 - INFO -    ✓ LDR: 36488 lux
+2025-12-08 15:13:21,366 - INFO -    ✓ BMS: 13.74V, 0%
+2025-12-08 15:13:21,367 - INFO -    ✓ Cells: 3.449V, 3.44V, 3.443V, 3.417V
+2025-12-08 15:13:22,769 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-08 15:18:22,781 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-08 15:18:23,721 - INFO -    ✓ MPPT PV: 19.5V, 4.07A
+2025-12-08 15:18:24,425 - INFO -    ✓ ENV: 28.0°C, 26.7%, CO2: 503.0ppm
+2025-12-08 15:18:24,827 - INFO -    ✓ LDR: 36221 lux
+2025-12-08 15:18:35,135 - INFO -    ✓ BMS: 13.75V, 0%
+2025-12-08 15:18:35,135 - INFO -    ✓ Cells: 3.449V, 3.442V, 3.446V, 3.42V
+2025-12-08 15:18:36,537 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-08 15:21:41,549 - INFO - 💚 Aktif | Kalan: 79 dakika | Full BMS telemetry
+2025-12-08 15:23:36,554 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-08 15:23:37,497 - INFO -    ✓ MPPT PV: 19.4V, 3.92A
+2025-12-08 15:23:38,203 - INFO -    ✓ ENV: 27.2°C, 27.5%, CO2: 502.0ppm
+2025-12-08 15:23:38,605 - INFO -    ✓ LDR: 35687 lux
+2025-12-08 15:23:48,915 - INFO -    ✓ BMS: 13.75V, 0%
+2025-12-08 15:23:48,915 - INFO -    ✓ Cells: 3.449V, 3.442V, 3.446V, 3.418V
+2025-12-08 15:23:50,317 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-08 15:28:50,326 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-08 15:28:51,265 - INFO -    ✓ MPPT PV: 19.5V, 3.7A
+2025-12-08 15:28:51,971 - INFO -    ✓ ENV: 26.6°C, 28.5%, CO2: 499.0ppm
+2025-12-08 15:28:52,372 - INFO -    ✓ LDR: 34920 lux
+2025-12-08 15:29:02,687 - INFO -    ✓ BMS: 13.73V, 0%
+2025-12-08 15:29:02,687 - INFO -    ✓ Cells: 3.443V, 3.437V, 3.44V, 3.416V
+2025-12-08 15:29:04,090 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-08 15:31:41,603 - INFO - 💚 Aktif | Kalan: 69 dakika | Full BMS telemetry
+2025-12-08 15:34:04,106 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-08 15:34:05,073 - INFO -    ✓ MPPT PV: 19.5V, 3.52A
+2025-12-08 15:34:05,775 - INFO -    ✓ ENV: 26.1°C, 29.4%, CO2: 499.0ppm
+2025-12-08 15:34:06,176 - INFO -    ✓ LDR: 34193 lux
+2025-12-08 15:34:16,487 - INFO -    ✓ BMS: 13.71V, 0%
+2025-12-08 15:34:16,489 - INFO -    ✓ Cells: 3.436V, 3.432V, 3.435V, 3.411V
+2025-12-08 15:34:17,891 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-08 15:39:17,904 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-08 15:39:18,892 - INFO -    ✓ MPPT PV: 19.6V, 3.2A
+2025-12-08 15:39:19,596 - INFO -    ✓ ENV: 25.6°C, 30.0%, CO2: 493.0ppm
+2025-12-08 15:39:19,999 - INFO -    ✓ LDR: 33256 lux
+2025-12-08 15:39:30,315 - INFO -    ✓ BMS: 13.68V, 0%
+2025-12-08 15:39:30,316 - INFO -    ✓ Cells: 3.427V, 3.424V, 3.427V, 3.402V
+2025-12-08 15:39:31,719 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-08 15:41:41,664 - INFO - 💚 Aktif | Kalan: 59 dakika | Full BMS telemetry
+2025-12-08 15:44:31,735 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-08 15:44:32,688 - INFO -    ✓ MPPT PV: 21.4V, 1.06A
+2025-12-08 15:44:33,392 - INFO -    ✓ ENV: 25.0°C, 30.9%, CO2: 496.0ppm
+2025-12-08 15:44:33,795 - INFO -    ✓ LDR: 17522 lux
+2025-12-08 15:44:44,107 - INFO -    ✓ BMS: 13.54V, 0%
+2025-12-08 15:44:44,107 - INFO -    ✓ Cells: 3.382V, 3.392V, 3.391V, 3.375V
+2025-12-08 15:44:45,509 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-08 15:49:45,523 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-08 15:49:46,488 - INFO -    ✓ MPPT PV: 22.0V, 0.73A
+2025-12-08 15:49:47,192 - INFO -    ✓ ENV: 24.4°C, 31.6%, CO2: 492.0ppm
+2025-12-08 15:49:47,593 - INFO -    ✓ LDR: 5140 lux
+2025-12-08 15:49:57,903 - INFO -    ✓ BMS: 13.43V, 0%
+2025-12-08 15:49:57,903 - INFO -    ✓ Cells: 3.354V, 3.367V, 3.366V, 3.351V
+2025-12-08 15:49:59,308 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-08 15:51:41,725 - INFO - 💚 Aktif | Kalan: 49 dakika | Full BMS telemetry
+2025-12-08 15:54:59,324 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-08 15:55:00,301 - INFO -    ✓ MPPT PV: 21.7V, 0.87A
+2025-12-08 15:55:01,004 - INFO -    ✓ ENV: 23.6°C, 32.7%, CO2: 494.0ppm
+2025-12-08 15:55:01,407 - INFO -    ✓ LDR: 5060 lux
+2025-12-08 15:55:11,726 - INFO -    ✓ BMS: 13.35V, 0%
+2025-12-08 15:55:11,727 - INFO -    ✓ Cells: 3.333V, 3.347V, 3.344V, 3.335V
+2025-12-08 15:55:13,129 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-08 16:00:13,143 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-08 16:00:14,106 - INFO -    ✓ MPPT PV: 22.3V, 0.78A
+2025-12-08 16:00:14,813 - INFO -    ✓ ENV: 22.9°C, 33.5%, CO2: 489.0ppm
+2025-12-08 16:00:15,214 - INFO -    ✓ LDR: 5043 lux
+2025-12-08 16:00:25,526 - INFO -    ✓ BMS: 13.32V, 0%
+2025-12-08 16:00:25,527 - INFO -    ✓ Cells: 3.325V, 3.335V, 3.335V, 3.328V
+2025-12-08 16:00:26,932 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-08 16:01:41,783 - INFO - 💚 Aktif | Kalan: 39 dakika | Full BMS telemetry
+2025-12-08 16:05:26,942 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-08 16:05:27,913 - INFO -    ✓ MPPT PV: 21.7V, 0.73A
+2025-12-08 16:05:28,617 - INFO -    ✓ ENV: 22.2°C, 34.9%, CO2: 496.0ppm
+2025-12-08 16:05:29,018 - INFO -    ✓ LDR: 7889 lux
+2025-12-08 16:05:39,328 - INFO -    ✓ BMS: 13.28V, 0%
+2025-12-08 16:05:39,332 - INFO -    ✓ Cells: 3.314V, 3.328V, 3.325V, 3.319V
+2025-12-08 16:05:40,735 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-08 16:10:40,751 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-08 16:10:41,729 - INFO -    ✓ MPPT PV: 22.0V, 0.7A
+2025-12-08 16:10:42,432 - INFO -    ✓ ENV: 21.7°C, 35.7%, CO2: 487.0ppm
+2025-12-08 16:10:42,834 - INFO -    ✓ LDR: 23765 lux
+2025-12-08 16:10:53,152 - INFO -    ✓ BMS: 13.25V, 0%
+2025-12-08 16:10:53,154 - INFO -    ✓ Cells: 3.304V, 3.32V, 3.319V, 3.314V
+2025-12-08 16:10:54,557 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-08 16:11:41,837 - INFO - 💚 Aktif | Kalan: 29 dakika | Full BMS telemetry
+2025-12-08 16:15:54,568 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-08 16:15:55,541 - INFO -    ✓ MPPT PV: 21.5V, 0.69A
+2025-12-08 16:15:56,246 - INFO -    ✓ ENV: 21.6°C, 36.3%, CO2: 492.0ppm
+2025-12-08 16:15:56,647 - INFO -    ✓ LDR: 21265 lux
+2025-12-08 16:16:06,957 - INFO -    ✓ BMS: 13.24V, 0%
+2025-12-08 16:16:06,957 - INFO -    ✓ Cells: 3.301V, 3.317V, 3.314V, 3.312V
+2025-12-08 16:16:08,359 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-08 16:21:08,367 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-08 16:21:09,352 - INFO -    ✓ MPPT PV: 21.7V, 0.73A
+2025-12-08 16:21:10,056 - INFO -    ✓ ENV: 21.8°C, 37.0%, CO2: 495.0ppm
+2025-12-08 16:21:10,458 - INFO -    ✓ LDR: 19260 lux
+2025-12-08 16:21:20,769 - INFO -    ✓ BMS: 13.23V, 0%
+2025-12-08 16:21:20,769 - INFO -    ✓ Cells: 3.3V, 3.314V, 3.312V, 3.309V
+2025-12-08 16:21:22,171 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-08 16:21:41,909 - INFO - 💚 Aktif | Kalan: 19 dakika | Full BMS telemetry
+2025-12-08 16:26:22,187 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-08 16:26:23,160 - INFO -    ✓ MPPT PV: 20.6V, 0.79A
+2025-12-08 16:26:23,863 - INFO -    ✓ ENV: 22.1°C, 37.3%, CO2: 492.0ppm
+2025-12-08 16:26:24,264 - INFO -    ✓ LDR: 17040 lux
+2025-12-08 16:26:34,577 - INFO -    ✓ BMS: 13.22V, 0%
+2025-12-08 16:26:34,577 - INFO -    ✓ Cells: 3.297V, 3.313V, 3.31V, 3.307V
+2025-12-08 16:26:35,979 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-08 16:31:35,988 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-08 16:31:36,975 - INFO -    ✓ MPPT PV: 20.8V, 0.75A
+2025-12-08 16:31:37,678 - INFO -    ✓ ENV: 22.4°C, 37.1%, CO2: 493.0ppm
+2025-12-08 16:31:38,079 - INFO -    ✓ LDR: 14256 lux
+2025-12-08 16:31:41,976 - INFO - 💚 Aktif | Kalan: 9 dakika | Full BMS telemetry
+2025-12-08 16:31:48,397 - INFO -    ✓ BMS: 13.22V, 0%
+2025-12-08 16:31:48,397 - INFO -    ✓ Cells: 3.297V, 3.312V, 3.309V, 3.306V
+2025-12-08 16:31:49,801 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-08 16:36:49,815 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-08 16:36:50,782 - INFO -    ✓ MPPT PV: 21.2V, 0.69A
+2025-12-08 16:36:51,487 - INFO -    ✓ ENV: 22.7°C, 36.4%, CO2: 491.0ppm
+2025-12-08 16:36:51,888 - INFO -    ✓ LDR: 13291 lux
+2025-12-08 16:37:02,200 - INFO -    ✓ BMS: 13.22V, 0%
+2025-12-08 16:37:02,200 - INFO -    ✓ Cells: 3.297V, 3.312V, 3.309V, 3.307V
+2025-12-08 16:37:03,602 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-08 16:41:37,044 - INFO - ⏰ 2 SAAT DOLDU! Kapatılıyor...
+2025-12-08 16:41:37,045 - INFO - ======================================================================
+2025-12-08 16:41:37,045 - INFO - 🔄 Kapatılıyor...
+2025-12-08 16:41:37,045 - INFO - ======================================================================
+2025-12-08 16:41:38,078 - INFO - 🔌 Röleler kapatılıyor...
+2025-12-08 16:41:38,078 - INFO -    ⭕ CH1 (GPIO 26): KAPALI
+2025-12-08 16:41:38,078 - INFO -    ⭕ CH2 (GPIO 20): KAPALI
+2025-12-08 16:41:38,078 - INFO -    ⭕ CH3 (GPIO 21): KAPALI
+2025-12-08 16:41:38,081 - INFO - ✅ Temizlendi
+2025-12-08 16:41:38,081 - INFO - 👋 NuBank Service kapatıldı
+2025-12-09 11:23:32,620 - INFO - ======================================================================
+2025-12-09 11:23:32,623 - INFO - 🚀 NuBank Complete Service - FULL BMS
+2025-12-09 11:23:32,625 - INFO - ======================================================================
+2025-12-09 11:23:32,625 - INFO - 📍 Location: Podgorica-Karadag
+2025-12-09 11:23:32,625 - INFO - 🆔 Device ID: KARADAG-BANK-01
+2025-12-09 11:23:32,625 - INFO - 🔧 Device Type: 0xC1
+2025-12-09 11:23:32,626 - INFO - ⏰ Başlangıç: 11:23:32
+2025-12-09 11:23:32,626 - INFO - ⏰ Kapanma: 13:23:32
+2025-12-09 11:23:32,626 - INFO - 📡 MQTT: broker.nuteknoloji.com → KARADAG-BANK-01/telemetry
+2025-12-09 11:23:32,626 - INFO - ======================================================================
+2025-12-09 11:23:32,640 - INFO - ✅ Modbus connected: /dev/ttyUSB0
+2025-12-09 11:23:32,650 - ERROR - ❌ MQTT connect error: [Errno -3] Temporary failure in name resolution
+2025-12-09 11:23:32,651 - WARNING - ⚠️  MQTT bağlanamadı, devam ediliyor...
+2025-12-09 11:23:32,651 - INFO - 🔌 Röleler açılıyor (CH1, CH2, CH3)...
+2025-12-09 11:23:32,651 - INFO -    ✅ CH1 (GPIO 26): AÇIK
+2025-12-09 11:23:32,651 - INFO -    ✅ CH2 (GPIO 20): AÇIK
+2025-12-09 11:23:32,652 - INFO -    ✅ CH3 (GPIO 21): AÇIK
+2025-12-09 11:23:35,652 - INFO - 🖥️  Ekran dikey yapılıyor (270°)...
+2025-12-09 11:23:35,655 - INFO -    ✅ Ekran döndürüldü
+2025-12-09 11:23:37,657 - INFO - 🎬 Video başlatılıyor...
+2025-12-09 11:23:37,658 - INFO -    ✅ Video loop (PID: 1284)
+2025-12-09 11:23:37,659 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-09 11:23:37,659 - INFO - 💚 Sistem aktif - Video + Telemetry (Full BMS) çalışıyor...
+2025-12-09 11:23:38,620 - INFO -    ✓ MPPT PV: 21.7V, 1.4A
+2025-12-09 11:23:39,339 - INFO -    ✓ ENV: 28.2°C, 33.7%, CO2: 548.0ppm
+2025-12-09 11:23:39,740 - INFO -    ✓ LDR: 15671 lux
+2025-12-09 11:23:50,056 - INFO -    ✓ BMS: 13.62V, 0%
+2025-12-09 11:23:50,057 - INFO -    ✓ Cells: 3.413V, 3.408V, 3.407V, 3.396V
+2025-12-09 11:23:51,466 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-09 11:32:15,227 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-09 11:32:16,154 - INFO -    ✓ MPPT PV: 21.2V, 2.9A
+2025-12-09 11:32:16,857 - INFO -    ✓ ENV: 28.1°C, 33.5%, CO2: 514.0ppm
+2025-12-09 11:32:17,258 - INFO -    ✓ LDR: 41651 lux
+2025-12-09 11:32:27,569 - INFO -    ✓ BMS: 13.69V, 0%
+2025-12-09 11:32:27,571 - INFO -    ✓ Cells: 3.433V, 3.426V, 3.424V, 3.413V
+2025-12-09 11:32:28,974 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-09 11:33:41,427 - INFO - 💚 Aktif | Kalan: 109 dakika | Full BMS telemetry
+2025-12-09 11:37:28,983 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-09 11:37:29,952 - INFO -    ✓ MPPT PV: 19.0V, 6.54A
+2025-12-09 11:37:30,655 - INFO -    ✓ ENV: 27.7°C, 33.2%, CO2: 504.0ppm
+2025-12-09 11:37:31,056 - INFO -    ✓ LDR: 54533 lux
+2025-12-09 11:37:41,371 - INFO -    ✓ BMS: 14.4V, 0%
+2025-12-09 11:37:41,372 - INFO -    ✓ Cells: 3.643V, 3.602V, 3.616V, 3.543V
+2025-12-09 11:37:42,774 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-09 11:42:42,787 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-09 11:42:43,721 - INFO -    ✓ MPPT PV: 23.1V, 0.33A
+2025-12-09 11:42:44,426 - INFO -    ✓ ENV: 27.7°C, 33.1%, CO2: 503.0ppm
+2025-12-09 11:42:44,827 - INFO -    ✓ LDR: 60190 lux
+2025-12-09 11:42:55,138 - INFO -    ✓ BMS: 14.19V, 0%
+2025-12-09 11:42:55,140 - INFO -    ✓ Cells: 3.577V, 3.553V, 3.569V, 3.5V
+2025-12-09 11:42:56,542 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-09 11:43:41,474 - INFO - 💚 Aktif | Kalan: 99 dakika | Full BMS telemetry
+2025-12-09 11:47:56,556 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-09 11:47:57,511 - INFO -    ✓ MPPT PV: 22.8V, 0.36A
+2025-12-09 11:47:58,214 - INFO -    ✓ ENV: 28.1°C, 32.4%, CO2: 499.0ppm
+2025-12-09 11:47:58,618 - INFO -    ✓ LDR: 51773 lux
+2025-12-09 11:48:08,926 - INFO -    ✓ BMS: 13.94V, 0%
+2025-12-09 11:48:08,927 - INFO -    ✓ Cells: 3.503V, 3.489V, 3.499V, 3.457V
+2025-12-09 11:48:10,329 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-09 11:53:10,339 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-09 11:53:11,302 - INFO -    ✓ MPPT PV: 22.4V, 1.79A
+2025-12-09 11:53:12,010 - INFO -    ✓ ENV: 28.7°C, 31.4%, CO2: 499.0ppm
+2025-12-09 11:53:12,411 - INFO -    ✓ LDR: 48450 lux
+2025-12-09 11:53:22,719 - INFO -    ✓ BMS: 14.03V, 0%
+2025-12-09 11:53:22,719 - INFO -    ✓ Cells: 3.537V, 3.508V, 3.518V, 3.476V
+2025-12-09 11:53:24,121 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-09 11:53:41,535 - INFO - 💚 Aktif | Kalan: 89 dakika | Full BMS telemetry
+2025-12-09 11:58:24,129 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-09 11:58:25,091 - INFO -    ✓ MPPT PV: 22.9V, 0.34A
+2025-12-09 11:58:25,798 - INFO -    ✓ ENV: 29.2°C, 30.4%, CO2: 500.0ppm
+2025-12-09 11:58:26,200 - INFO -    ✓ LDR: 57924 lux
+2025-12-09 11:58:36,511 - INFO -    ✓ BMS: 13.95V, 0%
+2025-12-09 11:58:36,511 - INFO -    ✓ Cells: 3.508V, 3.49V, 3.503V, 3.458V
+2025-12-09 11:58:37,913 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-09 12:03:37,930 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-09 12:03:38,863 - INFO -    ✓ MPPT PV: 22.8V, 0.41A
+2025-12-09 12:03:39,567 - INFO -    ✓ ENV: 29.6°C, 29.5%, CO2: 499.0ppm
+2025-12-09 12:03:39,969 - INFO -    ✓ LDR: 53573 lux
+2025-12-09 12:03:41,592 - INFO - 💚 Aktif | Kalan: 79 dakika | Full BMS telemetry
+2025-12-09 12:03:50,281 - INFO -    ✓ BMS: 14.01V, 0%
+2025-12-09 12:03:50,282 - INFO -    ✓ Cells: 3.524V, 3.503V, 3.52V, 3.464V
+2025-12-09 12:03:51,683 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-09 12:08:51,691 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-09 12:08:52,668 - INFO -    ✓ MPPT PV: 22.8V, 0.36A
+2025-12-09 12:08:53,370 - INFO -    ✓ ENV: 30.0°C, 28.6%, CO2: 492.0ppm
+2025-12-09 12:08:53,771 - INFO -    ✓ LDR: 47859 lux
+2025-12-09 12:09:04,089 - INFO -    ✓ BMS: 14.27V, 0%
+2025-12-09 12:09:04,090 - INFO -    ✓ Cells: 3.6V, 3.568V, 3.593V, 3.509V
+2025-12-09 12:09:05,491 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-09 12:13:41,655 - INFO - 💚 Aktif | Kalan: 69 dakika | Full BMS telemetry
+2025-12-09 12:14:05,502 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-09 12:14:06,451 - INFO -    ✓ MPPT PV: 22.9V, 0.35A
+2025-12-09 12:14:07,163 - INFO -    ✓ ENV: 30.2°C, 27.7%, CO2: 494.0ppm
+2025-12-09 12:14:07,564 - INFO -    ✓ LDR: 49302 lux
+2025-12-09 12:14:18,877 - INFO -    ✓ BMS: 14.0V, 0%
+2025-12-09 12:14:18,878 - INFO -    ✓ Cells: 3.521V, 3.502V, 3.517V, 3.464V
+2025-12-09 12:14:20,283 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-09 12:19:20,303 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-09 12:19:21,233 - INFO -    ✓ MPPT PV: 22.9V, 0.39A
+2025-12-09 12:19:21,936 - INFO -    ✓ ENV: 30.3°C, 27.3%, CO2: 492.0ppm
+2025-12-09 12:19:22,337 - INFO -    ✓ LDR: 58617 lux
+2025-12-09 12:19:32,652 - INFO -    ✓ BMS: 13.94V, 0%
+2025-12-09 12:19:32,653 - INFO -    ✓ Cells: 3.503V, 3.487V, 3.499V, 3.455V
+2025-12-09 12:19:34,057 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-09 12:23:41,715 - INFO - 💚 Aktif | Kalan: 59 dakika | Full BMS telemetry
+2025-12-09 12:24:34,068 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-09 12:24:35,020 - INFO -    ✓ MPPT PV: 22.7V, 0.34A
+2025-12-09 12:24:35,723 - INFO -    ✓ ENV: 30.6°C, 26.9%, CO2: 491.0ppm
+2025-12-09 12:24:36,125 - INFO -    ✓ LDR: 56913 lux
+2025-12-09 12:24:46,439 - INFO -    ✓ BMS: 14.05V, 0%
+2025-12-09 12:24:46,440 - INFO -    ✓ Cells: 3.537V, 3.517V, 3.533V, 3.47V
+2025-12-09 12:24:47,844 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-09 12:29:47,853 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-09 12:29:48,800 - INFO -    ✓ MPPT PV: 22.6V, 0.34A
+2025-12-09 12:29:49,508 - INFO -    ✓ ENV: 31.1°C, 26.2%, CO2: 490.0ppm
+2025-12-09 12:29:49,909 - INFO -    ✓ LDR: 54664 lux
+2025-12-09 12:30:00,222 - INFO -    ✓ BMS: 13.98V, 0%
+2025-12-09 12:30:00,223 - INFO -    ✓ Cells: 3.515V, 3.498V, 3.512V, 3.461V
+2025-12-09 12:30:01,625 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-09 12:33:41,782 - INFO - 💚 Aktif | Kalan: 49 dakika | Full BMS telemetry
+2025-12-09 12:35:01,636 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-09 12:35:02,601 - INFO -    ✓ MPPT PV: 22.6V, 0.38A
+2025-12-09 12:35:03,304 - INFO -    ✓ ENV: 31.5°C, 25.5%, CO2: 492.0ppm
+2025-12-09 12:35:03,705 - INFO -    ✓ LDR: 52801 lux
+2025-12-09 12:35:14,018 - INFO -    ✓ BMS: 13.95V, 0%
+2025-12-09 12:35:14,018 - INFO -    ✓ Cells: 3.506V, 3.49V, 3.502V, 3.457V
+2025-12-09 12:35:15,422 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-09 12:40:15,443 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-09 12:40:16,410 - INFO -    ✓ MPPT PV: 19.0V, 5.93A
+2025-12-09 12:40:17,112 - INFO -    ✓ ENV: 31.7°C, 24.9%, CO2: 492.0ppm
+2025-12-09 12:40:17,515 - INFO -    ✓ LDR: 50063 lux
+2025-12-09 12:40:27,825 - INFO -    ✓ BMS: 14.14V, 0%
+2025-12-09 12:40:27,825 - INFO -    ✓ Cells: 3.569V, 3.533V, 3.547V, 3.495V
+2025-12-09 12:40:29,230 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-09 12:43:41,834 - INFO - 💚 Aktif | Kalan: 39 dakika | Full BMS telemetry
+2025-12-09 12:45:29,247 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-09 12:45:30,236 - INFO -    ✓ MPPT PV: 22.8V, 0.38A
+2025-12-09 12:45:30,938 - INFO -    ✓ ENV: 31.8°C, 24.3%, CO2: 491.0ppm
+2025-12-09 12:45:31,339 - INFO -    ✓ LDR: 56402 lux
+2025-12-09 12:45:41,652 - INFO -    ✓ BMS: 14.05V, 0%
+2025-12-09 12:45:41,653 - INFO -    ✓ Cells: 3.537V, 3.515V, 3.531V, 3.47V
+2025-12-09 12:45:43,055 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-09 12:50:43,068 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-09 12:50:44,047 - INFO -    ✓ MPPT PV: 22.7V, 0.35A
+2025-12-09 12:50:44,754 - INFO -    ✓ ENV: 31.9°C, 24.0%, CO2: 491.0ppm
+2025-12-09 12:50:45,155 - INFO -    ✓ LDR: 59225 lux
+2025-12-09 12:50:55,467 - INFO -    ✓ BMS: 14.0V, 0%
+2025-12-09 12:50:55,468 - INFO -    ✓ Cells: 3.522V, 3.503V, 3.518V, 3.464V
+2025-12-09 12:50:56,869 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-09 12:53:41,909 - INFO - 💚 Aktif | Kalan: 29 dakika | Full BMS telemetry
+2025-12-09 12:55:56,880 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-09 12:55:57,862 - INFO -    ✓ MPPT PV: 22.7V, 0.36A
+2025-12-09 12:55:58,565 - INFO -    ✓ ENV: 32.1°C, 23.8%, CO2: 491.0ppm
+2025-12-09 12:55:58,966 - INFO -    ✓ LDR: 58810 lux
+2025-12-09 12:56:09,282 - INFO -    ✓ BMS: 13.98V, 0%
+2025-12-09 12:56:09,283 - INFO -    ✓ Cells: 3.515V, 3.498V, 3.511V, 3.461V
+2025-12-09 12:56:10,685 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-09 13:01:10,694 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-09 13:01:11,670 - INFO -    ✓ MPPT PV: 22.6V, 0.41A
+2025-12-09 13:01:12,378 - INFO -    ✓ ENV: 32.4°C, 23.6%, CO2: 487.0ppm
+2025-12-09 13:01:12,779 - INFO -    ✓ LDR: 54902 lux
+2025-12-09 13:01:23,092 - INFO -    ✓ BMS: 13.96V, 0%
+2025-12-09 13:01:23,092 - INFO -    ✓ Cells: 3.511V, 3.493V, 3.506V, 3.458V
+2025-12-09 13:01:24,496 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-09 13:03:41,978 - INFO - 💚 Aktif | Kalan: 19 dakika | Full BMS telemetry
+2025-12-09 13:06:24,509 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-09 13:06:25,478 - INFO -    ✓ MPPT PV: 22.6V, 0.33A
+2025-12-09 13:06:26,182 - INFO -    ✓ ENV: 32.7°C, 23.3%, CO2: 491.0ppm
+2025-12-09 13:06:26,586 - INFO -    ✓ LDR: 55101 lux
+2025-12-09 13:06:36,897 - INFO -    ✓ BMS: 13.95V, 0%
+2025-12-09 13:06:36,897 - INFO -    ✓ Cells: 3.506V, 3.49V, 3.503V, 3.457V
+2025-12-09 13:06:38,299 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-09 13:11:38,310 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-09 13:11:39,241 - INFO -    ✓ MPPT PV: 22.6V, 0.33A
+2025-12-09 13:11:39,946 - INFO -    ✓ ENV: 33.0°C, 22.7%, CO2: 490.0ppm
+2025-12-09 13:11:40,347 - INFO -    ✓ LDR: 54136 lux
+2025-12-09 13:11:50,665 - INFO -    ✓ BMS: 13.94V, 0%
+2025-12-09 13:11:50,666 - INFO -    ✓ Cells: 3.503V, 3.489V, 3.499V, 3.454V
+2025-12-09 13:11:52,067 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-09 13:13:42,041 - INFO - 💚 Aktif | Kalan: 9 dakika | Full BMS telemetry
+2025-12-09 13:16:52,079 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-09 13:16:53,019 - INFO -    ✓ MPPT PV: 22.8V, 0.0A
+2025-12-09 13:16:53,725 - INFO -    ✓ ENV: 33.3°C, 22.0%, CO2: 492.0ppm
+2025-12-09 13:16:54,126 - INFO -    ✓ LDR: 54885 lux
+2025-12-09 13:17:04,438 - INFO -    ✓ BMS: 13.89V, 0%
+2025-12-09 13:17:04,439 - INFO -    ✓ Cells: 3.487V, 3.477V, 3.486V, 3.445V
+2025-12-09 13:17:05,845 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-09 13:22:05,861 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-09 13:22:06,838 - INFO -    ✓ MPPT PV: 22.7V, 0.0A
+2025-12-09 13:22:07,541 - INFO -    ✓ ENV: 33.6°C, 21.4%, CO2: 493.0ppm
+2025-12-09 13:22:07,943 - INFO -    ✓ LDR: 55186 lux
+2025-12-09 13:22:18,254 - INFO -    ✓ BMS: 13.84V, 0%
+2025-12-09 13:22:18,255 - INFO -    ✓ Cells: 3.471V, 3.464V, 3.47V, 3.435V
+2025-12-09 13:22:19,658 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-09 13:23:37,112 - INFO - ⏰ 2 SAAT DOLDU! Kapatılıyor...
+2025-12-09 13:23:37,112 - INFO - ======================================================================
+2025-12-09 13:23:37,112 - INFO - 🔄 Kapatılıyor...
+2025-12-09 13:23:37,113 - INFO - ======================================================================
+2025-12-09 13:23:38,147 - INFO - 🔌 Röleler kapatılıyor...
+2025-12-09 13:23:38,148 - INFO -    ⭕ CH1 (GPIO 26): KAPALI
+2025-12-09 13:23:38,148 - INFO -    ⭕ CH2 (GPIO 20): KAPALI
+2025-12-09 13:23:38,148 - INFO -    ⭕ CH3 (GPIO 21): KAPALI
+2025-12-09 13:23:38,150 - INFO - ✅ Temizlendi
+2025-12-09 13:23:38,150 - INFO - 👋 NuBank Service kapatıldı
+2025-12-10 11:31:38,010 - INFO - ======================================================================
+2025-12-10 11:31:38,016 - INFO - 🚀 NuBank Complete Service - FULL BMS
+2025-12-10 11:31:38,016 - INFO - ======================================================================
+2025-12-10 11:31:38,016 - INFO - 📍 Location: Podgorica-Karadag
+2025-12-10 11:31:38,016 - INFO - 🆔 Device ID: KARADAG-BANK-01
+2025-12-10 11:31:38,017 - INFO - 🔧 Device Type: 0xC1
+2025-12-10 11:31:38,017 - INFO - ⏰ Başlangıç: 11:31:38
+2025-12-10 11:31:38,017 - INFO - ⏰ Kapanma: 13:31:38
+2025-12-10 11:31:38,017 - INFO - 📡 MQTT: broker.nuteknoloji.com → KARADAG-BANK-01/telemetry
+2025-12-10 11:31:38,017 - INFO - ======================================================================
+2025-12-10 11:31:38,024 - INFO - ✅ Modbus connected: /dev/ttyUSB0
+2025-12-10 11:31:38,034 - ERROR - ❌ MQTT connect error: [Errno -3] Temporary failure in name resolution
+2025-12-10 11:31:38,034 - WARNING - ⚠️  MQTT bağlanamadı, devam ediliyor...
+2025-12-10 11:31:38,034 - INFO - 🔌 Röleler açılıyor (CH1, CH2, CH3)...
+2025-12-10 11:31:38,035 - INFO -    ✅ CH1 (GPIO 26): AÇIK
+2025-12-10 11:31:38,035 - INFO -    ✅ CH2 (GPIO 20): AÇIK
+2025-12-10 11:31:38,035 - INFO -    ✅ CH3 (GPIO 21): AÇIK
+2025-12-10 11:31:41,035 - INFO - 🖥️  Ekran dikey yapılıyor (270°)...
+2025-12-10 11:31:41,038 - INFO -    ✅ Ekran döndürüldü
+2025-12-10 11:31:43,039 - INFO - 🎬 Video başlatılıyor...
+2025-12-10 11:31:43,043 - INFO -    ✅ Video loop (PID: 1285)
+2025-12-10 11:31:43,044 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-10 11:31:43,045 - INFO - 💚 Sistem aktif - Video + Telemetry (Full BMS) çalışıyor...
+2025-12-10 11:31:43,998 - INFO -    ✓ MPPT PV: 23.7V, 0.01A
+2025-12-10 11:31:44,701 - INFO -    ✓ ENV: 23.2°C, 42.7%, CO2: 511.0ppm
+2025-12-10 11:31:45,104 - INFO -    ✓ LDR: 39646 lux
+2025-12-10 11:31:55,415 - INFO -    ✓ BMS: 14.05V, 0%
+2025-12-10 11:31:55,416 - INFO -    ✓ Cells: 3.537V, 3.512V, 3.531V, 3.474V
+2025-12-10 11:31:56,820 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-10 11:37:01,432 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-10 11:37:02,409 - INFO -    ✓ MPPT PV: 23.5V, 0.39A
+2025-12-10 11:37:03,115 - INFO -    ✓ ENV: 23.1°C, 42.3%, CO2: 485.0ppm
+2025-12-10 11:37:03,516 - INFO -    ✓ LDR: 46547 lux
+2025-12-10 11:37:13,828 - INFO -    ✓ BMS: 13.95V, 0%
+2025-12-10 11:37:13,829 - INFO -    ✓ Cells: 3.503V, 3.487V, 3.502V, 3.458V
+2025-12-10 11:37:15,234 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-10 11:41:47,700 - INFO - 💚 Aktif | Kalan: 109 dakika | Full BMS telemetry
+2025-12-10 11:42:15,245 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-10 11:42:16,233 - INFO -    ✓ MPPT PV: 23.5V, 0.42A
+2025-12-10 11:42:16,936 - INFO -    ✓ ENV: 23.1°C, 42.3%, CO2: 481.0ppm
+2025-12-10 11:42:17,337 - INFO -    ✓ LDR: 49887 lux
+2025-12-10 11:42:27,647 - INFO -    ✓ BMS: 14.0V, 0%
+2025-12-10 11:42:27,648 - INFO -    ✓ Cells: 3.52V, 3.5V, 3.518V, 3.465V
+2025-12-10 11:42:29,050 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-10 11:47:29,067 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-10 11:47:30,007 - INFO -    ✓ MPPT PV: 23.4V, 0.4A
+2025-12-10 11:47:30,713 - INFO -    ✓ ENV: 23.5°C, 41.7%, CO2: 481.0ppm
+2025-12-10 11:47:31,114 - INFO -    ✓ LDR: 43985 lux
+2025-12-10 11:47:41,426 - INFO -    ✓ BMS: 14.14V, 0%
+2025-12-10 11:47:41,427 - INFO -    ✓ Cells: 3.562V, 3.533V, 3.559V, 3.487V
+2025-12-10 11:47:42,832 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-10 11:51:47,759 - INFO - 💚 Aktif | Kalan: 99 dakika | Full BMS telemetry
+2025-12-10 11:52:42,840 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-10 11:52:43,806 - INFO -    ✓ MPPT PV: 23.2V, 0.43A
+2025-12-10 11:52:44,509 - INFO -    ✓ ENV: 24.0°C, 40.7%, CO2: 482.0ppm
+2025-12-10 11:52:44,910 - INFO -    ✓ LDR: 52710 lux
+2025-12-10 11:52:55,221 - INFO -    ✓ BMS: 13.97V, 0%
+2025-12-10 11:52:55,223 - INFO -    ✓ Cells: 3.511V, 3.493V, 3.508V, 3.461V
+2025-12-10 11:52:56,627 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-10 11:57:56,648 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-10 11:57:57,607 - INFO -    ✓ MPPT PV: 23.3V, 0.44A
+2025-12-10 11:57:58,310 - INFO -    ✓ ENV: 24.6°C, 39.4%, CO2: 471.0ppm
+2025-12-10 11:57:58,711 - INFO -    ✓ LDR: 54749 lux
+2025-12-10 11:58:09,025 - INFO -    ✓ BMS: 14.12V, 0%
+2025-12-10 11:58:09,025 - INFO -    ✓ Cells: 3.559V, 3.53V, 3.556V, 3.483V
+2025-12-10 11:58:10,428 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-10 12:01:47,817 - INFO - 💚 Aktif | Kalan: 89 dakika | Full BMS telemetry
+2025-12-10 12:03:10,450 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-10 12:03:11,399 - INFO -    ✓ MPPT PV: 23.1V, 0.44A
+2025-12-10 12:03:12,102 - INFO -    ✓ ENV: 25.4°C, 38.0%, CO2: 475.0ppm
+2025-12-10 12:03:12,504 - INFO -    ✓ LDR: 57044 lux
+2025-12-10 12:03:22,823 - INFO -    ✓ BMS: 13.99V, 0%
+2025-12-10 12:03:22,823 - INFO -    ✓ Cells: 3.517V, 3.498V, 3.514V, 3.462V
+2025-12-10 12:03:24,225 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-10 12:08:24,239 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-10 12:08:25,178 - INFO -    ✓ MPPT PV: 23.0V, 0.46A
+2025-12-10 12:08:25,881 - INFO -    ✓ ENV: 26.5°C, 36.3%, CO2: 485.0ppm
+2025-12-10 12:08:26,282 - INFO -    ✓ LDR: 53778 lux
+2025-12-10 12:08:37,599 - INFO -    ✓ BMS: 13.94V, 0%
+2025-12-10 12:08:37,599 - INFO -    ✓ Cells: 3.503V, 3.487V, 3.5V, 3.457V
+2025-12-10 12:08:39,001 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-10 12:11:47,864 - INFO - 💚 Aktif | Kalan: 79 dakika | Full BMS telemetry
+2025-12-10 12:13:39,012 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-10 12:13:39,962 - INFO -    ✓ MPPT PV: 22.9V, 0.39A
+2025-12-10 12:13:40,672 - INFO -    ✓ ENV: 27.5°C, 34.4%, CO2: 484.0ppm
+2025-12-10 12:13:41,076 - INFO -    ✓ LDR: 56652 lux
+2025-12-10 12:13:51,389 - INFO -    ✓ BMS: 14.07V, 0%
+2025-12-10 12:13:51,390 - INFO -    ✓ Cells: 3.541V, 3.52V, 3.537V, 3.474V
+2025-12-10 12:13:52,792 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-10 12:18:52,802 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-10 12:18:53,756 - INFO -    ✓ MPPT PV: 22.9V, 0.41A
+2025-12-10 12:18:54,463 - INFO -    ✓ ENV: 28.6°C, 32.5%, CO2: 488.0ppm
+2025-12-10 12:18:54,864 - INFO -    ✓ LDR: 54153 lux
+2025-12-10 12:19:05,175 - INFO -    ✓ BMS: 13.99V, 0%
+2025-12-10 12:19:05,176 - INFO -    ✓ Cells: 3.518V, 3.5V, 3.515V, 3.462V
+2025-12-10 12:19:06,578 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-10 12:21:47,920 - INFO - 💚 Aktif | Kalan: 69 dakika | Full BMS telemetry
+2025-12-10 12:24:06,588 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-10 12:24:07,557 - INFO -    ✓ MPPT PV: 22.8V, 0.39A
+2025-12-10 12:24:08,262 - INFO -    ✓ ENV: 29.6°C, 30.6%, CO2: 489.0ppm
+2025-12-10 12:24:08,663 - INFO -    ✓ LDR: 55930 lux
+2025-12-10 12:24:18,978 - INFO -    ✓ BMS: 13.96V, 0%
+2025-12-10 12:24:18,978 - INFO -    ✓ Cells: 3.508V, 3.492V, 3.505V, 3.458V
+2025-12-10 12:24:20,380 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-10 12:29:20,392 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-10 12:29:21,361 - INFO -    ✓ MPPT PV: 22.7V, 0.4A
+2025-12-10 12:29:22,064 - INFO -    ✓ ENV: 30.5°C, 28.6%, CO2: 490.0ppm
+2025-12-10 12:29:22,466 - INFO -    ✓ LDR: 52301 lux
+2025-12-10 12:29:32,774 - INFO -    ✓ BMS: 13.94V, 0%
+2025-12-10 12:29:32,774 - INFO -    ✓ Cells: 3.502V, 3.487V, 3.499V, 3.455V
+2025-12-10 12:29:34,176 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-10 12:31:47,977 - INFO - 💚 Aktif | Kalan: 59 dakika | Full BMS telemetry
+2025-12-10 12:34:34,187 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-10 12:34:35,166 - INFO -    ✓ MPPT PV: 22.8V, 0.4A
+2025-12-10 12:34:35,868 - INFO -    ✓ ENV: 31.1°C, 26.7%, CO2: 487.0ppm
+2025-12-10 12:34:36,274 - INFO -    ✓ LDR: 53942 lux
+2025-12-10 12:34:46,587 - INFO -    ✓ BMS: 14.09V, 0%
+2025-12-10 12:34:46,588 - INFO -    ✓ Cells: 3.55V, 3.524V, 3.543V, 3.476V
+2025-12-10 12:34:47,990 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-10 12:39:48,010 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-10 12:39:48,999 - INFO -    ✓ MPPT PV: 22.7V, 0.41A
+2025-12-10 12:39:49,705 - INFO -    ✓ ENV: 31.6°C, 25.8%, CO2: 490.0ppm
+2025-12-10 12:39:50,108 - INFO -    ✓ LDR: 54340 lux
+2025-12-10 12:40:00,423 - INFO -    ✓ BMS: 14.02V, 0%
+2025-12-10 12:40:00,423 - INFO -    ✓ Cells: 3.527V, 3.506V, 3.522V, 3.467V
+2025-12-10 12:40:01,825 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-10 12:41:48,027 - INFO - 💚 Aktif | Kalan: 49 dakika | Full BMS telemetry
+2025-12-10 12:45:01,844 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-10 12:45:02,774 - INFO -    ✓ MPPT PV: 22.6V, 0.49A
+2025-12-10 12:45:03,476 - INFO -    ✓ ENV: 32.1°C, 25.0%, CO2: 492.0ppm
+2025-12-10 12:45:03,877 - INFO -    ✓ LDR: 47234 lux
+2025-12-10 12:45:14,192 - INFO -    ✓ BMS: 13.99V, 0%
+2025-12-10 12:45:14,193 - INFO -    ✓ Cells: 3.517V, 3.498V, 3.514V, 3.462V
+2025-12-10 12:45:15,595 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-10 12:50:15,611 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-10 12:50:16,599 - INFO -    ✓ MPPT PV: 22.7V, 0.44A
+2025-12-10 12:50:17,301 - INFO -    ✓ ENV: 32.3°C, 24.0%, CO2: 490.0ppm
+2025-12-10 12:50:17,702 - INFO -    ✓ LDR: 43287 lux
+2025-12-10 12:50:28,011 - INFO -    ✓ BMS: 13.97V, 0%
+2025-12-10 12:50:28,011 - INFO -    ✓ Cells: 3.511V, 3.495V, 3.508V, 3.459V
+2025-12-10 12:50:29,412 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-10 12:51:48,094 - INFO - 💚 Aktif | Kalan: 39 dakika | Full BMS telemetry
+2025-12-10 12:55:29,422 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-10 12:55:30,353 - INFO -    ✓ MPPT PV: 22.7V, 0.42A
+2025-12-10 12:55:31,057 - INFO -    ✓ ENV: 32.3°C, 23.4%, CO2: 492.0ppm
+2025-12-10 12:55:31,460 - INFO -    ✓ LDR: 40095 lux
+2025-12-10 12:55:41,774 - INFO -    ✓ BMS: 13.96V, 0%
+2025-12-10 12:55:41,774 - INFO -    ✓ Cells: 3.506V, 3.492V, 3.505V, 3.458V
+2025-12-10 12:55:43,176 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-10 13:00:43,195 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-10 13:00:44,170 - INFO -    ✓ MPPT PV: 22.8V, 0.46A
+2025-12-10 13:00:44,877 - INFO -    ✓ ENV: 32.1°C, 23.1%, CO2: 492.0ppm
+2025-12-10 13:00:45,279 - INFO -    ✓ LDR: 40708 lux
+2025-12-10 13:00:55,594 - INFO -    ✓ BMS: 13.94V, 0%
+2025-12-10 13:00:55,594 - INFO -    ✓ Cells: 3.503V, 3.489V, 3.502V, 3.455V
+2025-12-10 13:00:56,996 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-10 13:01:48,155 - INFO - 💚 Aktif | Kalan: 29 dakika | Full BMS telemetry
+2025-12-10 13:05:57,006 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-10 13:05:57,956 - INFO -    ✓ MPPT PV: 22.8V, 0.0A
+2025-12-10 13:05:58,662 - INFO -    ✓ ENV: 31.8°C, 23.3%, CO2: 493.0ppm
+2025-12-10 13:05:59,064 - INFO -    ✓ LDR: 35091 lux
+2025-12-10 13:06:09,375 - INFO -    ✓ BMS: 13.84V, 0%
+2025-12-10 13:06:09,375 - INFO -    ✓ Cells: 3.473V, 3.465V, 3.473V, 3.437V
+2025-12-10 13:06:10,780 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-10 13:11:10,793 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-10 13:11:12,676 - INFO -    ✓ MPPT PV: NoneV, 0.0A
+2025-12-10 13:11:13,379 - INFO -    ✓ ENV: 31.3°C, 23.0%, CO2: 489.0ppm
+2025-12-10 13:11:13,781 - INFO -    ✓ LDR: 44139 lux
+2025-12-10 13:11:24,094 - INFO -    ✓ BMS: 13.8V, 0%
+2025-12-10 13:11:24,096 - INFO -    ✓ Cells: 3.459V, 3.454V, 3.459V, 3.432V
+2025-12-10 13:11:25,498 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-10 13:11:48,204 - INFO - 💚 Aktif | Kalan: 19 dakika | Full BMS telemetry
+2025-12-10 13:16:25,510 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-10 13:16:26,450 - INFO -    ✓ MPPT PV: 23.0V, 0.0A
+2025-12-10 13:16:27,152 - INFO -    ✓ ENV: 30.9°C, 23.1%, CO2: 481.0ppm
+2025-12-10 13:16:27,555 - INFO -    ✓ LDR: 41503 lux
+2025-12-10 13:16:37,867 - INFO -    ✓ BMS: 13.76V, 0%
+2025-12-10 13:16:37,868 - INFO -    ✓ Cells: 3.448V, 3.443V, 3.448V, 3.424V
+2025-12-10 13:16:39,270 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-10 13:21:39,281 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-10 13:21:40,259 - INFO -    ✓ MPPT PV: 23.0V, 0.0A
+2025-12-10 13:21:40,963 - INFO -    ✓ ENV: 30.6°C, 23.6%, CO2: 483.0ppm
+2025-12-10 13:21:41,365 - INFO -    ✓ LDR: 46059 lux
+2025-12-10 13:21:48,259 - INFO - 💚 Aktif | Kalan: 9 dakika | Full BMS telemetry
+2025-12-10 13:21:51,677 - INFO -    ✓ BMS: 13.73V, 0%
+2025-12-10 13:21:51,678 - INFO -    ✓ Cells: 3.439V, 3.436V, 3.44V, 3.418V
+2025-12-10 13:21:53,086 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-10 13:26:53,106 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-10 13:26:54,066 - INFO -    ✓ MPPT PV: 23.0V, 0.0A
+2025-12-10 13:26:54,771 - INFO -    ✓ ENV: 30.6°C, 24.1%, CO2: 483.0ppm
+2025-12-10 13:26:55,172 - INFO -    ✓ LDR: 51744 lux
+2025-12-10 13:27:05,485 - INFO -    ✓ BMS: 13.7V, 0%
+2025-12-10 13:27:05,485 - INFO -    ✓ Cells: 3.432V, 3.43V, 3.432V, 3.413V
+2025-12-10 13:27:06,888 - WARNING - ⚠️  MQTT not connected, skipping publish
+2025-12-10 13:31:38,323 - INFO - ⏰ 2 SAAT DOLDU! Kapatılıyor...
+2025-12-10 13:31:38,324 - INFO - ======================================================================
+2025-12-10 13:31:38,324 - INFO - 🔄 Kapatılıyor...
+2025-12-10 13:31:38,324 - INFO - ======================================================================
+2025-12-10 13:31:39,357 - INFO - 🔌 Röleler kapatılıyor...
+2025-12-10 13:31:39,357 - INFO -    ⭕ CH1 (GPIO 26): KAPALI
+2025-12-10 13:31:39,358 - INFO -    ⭕ CH2 (GPIO 20): KAPALI
+2025-12-10 13:31:39,358 - INFO -    ⭕ CH3 (GPIO 21): KAPALI
+2025-12-10 13:31:39,363 - INFO - ✅ Temizlendi
+2025-12-10 13:31:39,365 - INFO - 👋 NuBank Service kapatıldı
+2025-12-10 16:26:59,613 - INFO - ======================================================================
+2025-12-10 16:26:59,613 - INFO - 🚀 NuBank Complete Service - FULL BMS
+2025-12-10 16:26:59,613 - INFO - ======================================================================
+2025-12-10 16:26:59,613 - INFO - 📍 Location: Podgorica-Karadag
+2025-12-10 16:26:59,614 - INFO - 🆔 Device ID: KARADAG-BANK-01
+2025-12-10 16:26:59,614 - INFO - 🔧 Device Type: 0xC1
+2025-12-10 16:26:59,614 - INFO - ⏰ Başlangıç: 16:26:59
+2025-12-10 16:26:59,614 - INFO - ⏰ Kapanma: 18:26:59
+2025-12-10 16:26:59,614 - INFO - 📡 MQTT: broker.nuteknoloji.com → KARADAG-BANK-01/telemetry
+2025-12-10 16:26:59,614 - INFO - ======================================================================
+2025-12-10 16:26:59,620 - INFO - ✅ Modbus connected: /dev/ttyUSB0
+2025-12-10 16:26:59,833 - INFO - ✅ MQTT connected: broker.nuteknoloji.com
+2025-12-10 16:27:01,745 - INFO - 🔌 Röleler açılıyor (CH1, CH2, CH3)...
+2025-12-10 16:27:01,746 - INFO -    ✅ CH1 (GPIO 26): AÇIK
+2025-12-10 16:27:01,746 - INFO -    ✅ CH2 (GPIO 20): AÇIK
+2025-12-10 16:27:01,746 - INFO -    ✅ CH3 (GPIO 21): AÇIK
+2025-12-10 16:27:04,746 - INFO - 🖥️  Ekran dikey yapılıyor (270°)...
+2025-12-10 16:27:04,753 - INFO -    ✅ Ekran döndürüldü
+2025-12-10 16:27:06,754 - INFO - 🎬 Video başlatılıyor...
+2025-12-10 16:27:06,756 - INFO -    ✅ Video loop (PID: 1898)
+2025-12-10 16:27:06,758 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-10 16:27:06,758 - INFO - 💚 Sistem aktif - Video + Telemetry (Full BMS) çalışıyor...
+2025-12-10 16:27:07,703 - INFO -    ✓ MPPT PV: 22.8V, 0.0A
+2025-12-10 16:27:08,407 - INFO -    ✓ ENV: 20.6°C, 37.5%, CO2: 483.0ppm
+2025-12-10 16:27:08,808 - INFO -    ✓ LDR: 14239 lux
+2025-12-10 16:27:19,125 - INFO -    ✓ BMS: 13.35V, 0%
+2025-12-10 16:27:19,126 - INFO -    ✓ Cells: 3.336V, 3.341V, 3.338V, 3.336V
+2025-12-10 16:27:20,529 - INFO - ✅ MQTT published: 26 parameters
+2025-12-10 16:31:53,908 - INFO - ⚠️  Kapatma sinyali alındı...
+2025-12-10 16:31:56,794 - INFO - ======================================================================
+2025-12-10 16:31:56,795 - INFO - 🔄 Kapatılıyor...
+2025-12-10 16:31:56,795 - INFO - ======================================================================
+2025-12-10 16:31:57,796 - INFO - 🔌 Röleler kapatılıyor...
+2025-12-10 16:31:57,797 - INFO -    ⭕ CH1 (GPIO 26): KAPALI
+2025-12-10 16:31:57,797 - INFO -    ⭕ CH2 (GPIO 20): KAPALI
+2025-12-10 16:31:57,798 - INFO -    ⭕ CH3 (GPIO 21): KAPALI
+2025-12-10 16:31:58,324 - WARNING - ⚠️  MQTT disconnected
+2025-12-10 16:31:58,325 - INFO - ✅ Temizlendi
+2025-12-10 16:31:58,326 - INFO - 👋 NuBank Service kapatıldı
+2025-12-10 16:32:10,472 - INFO - ======================================================================
+2025-12-10 16:32:10,472 - INFO - 🚀 NuBank Complete Service - FULL BMS
+2025-12-10 16:32:10,473 - INFO - ======================================================================
+2025-12-10 16:32:10,473 - INFO - 📍 Location: Podgorica-Karadag
+2025-12-10 16:32:10,473 - INFO - 🆔 Device ID: KARADAG-BANK-01
+2025-12-10 16:32:10,473 - INFO - 🔧 Device Type: 0xC1
+2025-12-10 16:32:10,473 - INFO - ⏰ Başlangıç: 16:32:10
+2025-12-10 16:32:10,474 - INFO - ⏰ Kapanma: 18:32:10
+2025-12-10 16:32:10,474 - INFO - 📡 MQTT: broker.nuteknoloji.com → KARADAG-BANK-01/telemetry
+2025-12-10 16:32:10,474 - INFO - ======================================================================
+2025-12-10 16:32:10,479 - INFO - ✅ Modbus connected: /dev/ttyUSB0
+2025-12-10 16:32:10,668 - INFO - ✅ MQTT connected: broker.nuteknoloji.com
+2025-12-10 16:32:12,585 - INFO - 🔌 Röleler açılıyor (CH1, CH2, CH3)...
+2025-12-10 16:32:12,586 - INFO -    ✅ CH1 (GPIO 26): AÇIK
+2025-12-10 16:32:12,586 - INFO -    ✅ CH2 (GPIO 20): AÇIK
+2025-12-10 16:32:12,586 - INFO -    ✅ CH3 (GPIO 21): AÇIK
+2025-12-10 16:32:15,586 - INFO - 🖥️  Ekran dikey yapılıyor (270°)...
+2025-12-10 16:32:15,593 - INFO -    ✅ Ekran döndürüldü
+2025-12-10 16:32:17,594 - INFO - 🎬 Video başlatılıyor...
+2025-12-10 16:32:17,596 - INFO -    ✅ Video loop (PID: 1964)
+2025-12-10 16:32:17,598 - INFO - 📊 Modbus tam okuma başlıyor...
+2025-12-10 16:32:17,598 - INFO - 💚 Sistem aktif - Video + Telemetry (Full BMS) çalışıyor...
+2025-12-10 16:32:18,561 - INFO -    ✓ MPPT PV: 19.3V, 0.92A
+2025-12-10 16:32:19,265 - INFO -    ✓ ENV: 20.6°C, 37.8%, CO2: 483.0ppm
+2025-12-10 16:32:19,666 - INFO -    ✓ LDR: 12478 lux
